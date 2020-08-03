@@ -3,7 +3,7 @@ const Promise = require('bluebird');
 const nodeUrl = require('url');
 const buyan = require('bunyan');
 const net = require('net');
-const tls = require('tls');
+const tls = require('tls').DEFAULT_MIN_VERSION = 'TLSv1';
 const EventEmitter = require('events');
 
 const Connection = require('./connection');

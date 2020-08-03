@@ -1,5 +1,5 @@
 const net = require('net');
-const tls = require('tls');
+const tls = require('tls').DEFAULT_MIN_VERSION = 'TLSv1';
 const ip = require('ip');
 const Promise = require('bluebird');
 

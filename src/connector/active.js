@@ -1,5 +1,5 @@
 const {Socket} = require('net');
-const tls = require('tls');
+const tls = require('tls').DEFAULT_MIN_VERSION = 'TLSv1';
 const Promise = require('bluebird');
 const Connector = require('./base');
 
