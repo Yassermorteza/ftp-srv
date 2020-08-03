@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const tls = require('tls');
+const tls = require('tls').DEFAULT_MIN_VERSION = 'TLSv1';
 
 module.exports = {
   directive: 'AUTH',
